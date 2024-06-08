@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+main {
+  background-color: #f2f2f2;
+}
+.container {
+  max-width: 1320px;
+  padding: 40px;
+  margin: 0 auto;
+}
+.ex {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 25pt;
+  margin: 17px;
+}
+.or {
+  text-align: center;
+}
+.vilkalar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 60px 0;
+}
+.vilka {
+  width: 394px;
+  height: 540px;
+  border-radius: 24px;
+  padding: 38px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.pichoq {
+  font-size: 36px;
+  font-weight: 600;
+}
+.vilka h2 {
+  text-align: left;
+}
+.img {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.img img {
+  width: 150px;
+  height: 150px;
+  margin: 60px 0;
+}
+.tarelka {
+  color: #64646a;
+  font-size: 24px;
+}
+button {
+  width: 225px;
+  background-color: #1b1b1d;
+  height: 60px;
+  border-radius: 126px;
+  color: white;
+}
+
